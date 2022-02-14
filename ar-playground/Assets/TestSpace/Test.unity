@@ -259,8 +259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -301,8 +301,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1888774530}
   - component: {fileID: 1888774529}
-  - component: {fileID: 1888774532}
   - component: {fileID: 1888774531}
+  - component: {fileID: 1888774532}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1888774528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ab0e80cee9cc1d44928bfe488dd1e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RaycastPrefab: {fileID: 0}
+  m_PointCloudPrefab: {fileID: 2743828276782129103, guid: 7c46f51316dea8443950d496e67ac288, type: 3}
