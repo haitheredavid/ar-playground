@@ -26,7 +26,7 @@ MonoBehaviour:
     m_Size: {x: 0.1, y: 0.1629482}
     m_SpecifySize: 1
     m_Name: facade-brown
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: 477f6ce5a8f43eb4a904e951a5338260, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 4885205193295082154
       m_GuidHigh: 2239862321885149597
@@ -36,4 +36,4 @@ MonoBehaviour:
     m_Size: {x: 0.1, y: 0.12564103}
     m_SpecifySize: 1
     m_Name: facade-white
-    m_Texture: {fileID: 0}
+    m_Texture: {fileID: 2800000, guid: fb507efd07123704f804f1de632efa07, type: 3}
