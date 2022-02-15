@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 4518422093284469989
       m_GuidHigh: 6954177559750313129
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.1, y: 0.1629482}
+    m_SpecifySize: 1
     m_Name: facade-brown
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -33,7 +33,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 3964301350100041469
       m_GuidHigh: 574822908920136952
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
+    m_Size: {x: 0.1, y: 0.12564103}
+    m_SpecifySize: 1
     m_Name: facade-white
     m_Texture: {fileID: 0}
