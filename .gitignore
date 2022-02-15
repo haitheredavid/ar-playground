@@ -9,7 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+
+#Stupid dirs that no one wants 
 **/[Ll]ibrary/[Aa]rtifacts/
+**/[Ll]ibrary/[Pp]ackageCache/
+**/[Ll]ibrary/[Bb]ee/**
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
