@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TestSpace/Test-Vuforia.unity
-    guid: d2f62181634662542aa93cf170908060
+    path: Assets/TestSpace/Test-Image.unity
+    guid: ce816eadf8cb1f343a8e30cb5a010f35
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ecb402a3b4386de46a64170286473084, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a242914004ec7f34a94792bfc2c20438, type: 2}
