@@ -322,8 +322,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
--r:"D:/Projects/Grounds/ar-playground/ar-playground/Library/PackageCache/com.ptc.vuforia.engine@14f4e1e34121-1642756205000/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll"
--r:"D:/Projects/Grounds/ar-playground/ar-playground/Library/PackageCache/com.ptc.vuforia.engine@14f4e1e34121-1642756205000/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll"
 -r:"D:/Projects/Grounds/ar-playground/ar-playground/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/Bee/artifacts/900b0aEDbg.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aEDbg.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -351,8 +349,6 @@
 -r:"Library/Bee/artifacts/900b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/900b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
--r:"Library/Bee/artifacts/900b0aEDbg.dag/VuforiaEditorScripts.ref.dll"
--r:"Library/Bee/artifacts/900b0aEDbg.dag/VuforiaScripts.ref.dll"
 "Assets/TestSpace/Scripts/TrackedImageInfoManager.cs"
 -langversion:9.0
 

@@ -31,9 +31,19 @@ MonoBehaviour:
       m_GuidLow: 4885205193295082154
       m_GuidHigh: 2239862321885149597
     m_SerializedTextureGuid:
-      m_GuidLow: 3964301350100041469
-      m_GuidHigh: 574822908920136952
-    m_Size: {x: 0.1, y: 0.12564103}
+      m_GuidLow: 14656111121996424686
+      m_GuidHigh: 7013829907758226539
+    m_Size: {x: 0.1, y: 0.066122}
     m_SpecifySize: 1
     m_Name: facade-white
-    m_Texture: {fileID: 2800000, guid: fb507efd07123704f804f1de632efa07, type: 3}
+    m_Texture: {fileID: 2800000, guid: ff3fa5eef769cb646b9cf0e623215661, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4890280241350633533
+      m_GuidHigh: 4182816057054583215
+    m_SerializedTextureGuid:
+      m_GuidLow: 13714629440351086799
+      m_GuidHigh: 8788965406122054715
+    m_Size: {x: 0.1, y: 0.06536797}
+    m_SpecifySize: 1
+    m_Name: building-red-side
+    m_Texture: {fileID: 2800000, guid: 123da8cf26d0be543b141a8f78adf879, type: 3}
