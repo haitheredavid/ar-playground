@@ -16,6 +16,7 @@
 **/[Ll]ibrary/[Pp]ackageCache/
 **/[Ll]ibrary/[Bb]ee/**
 **/[Pp]lugins/
+**/[Bb]ee/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
