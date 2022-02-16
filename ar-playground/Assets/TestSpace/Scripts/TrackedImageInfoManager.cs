@@ -65,13 +65,20 @@ public class TrackedImageInfoManager : MonoBehaviour
     var planeParentGo = trackedImage.transform.GetChild(0).gameObject;
     var planeGo = planeParentGo.transform.GetChild(0).gameObject;
 
+    var lineParent = trackedImage.transform.GetChild(2).gameObject;
+    var lineGo = lineParent.transform.GetChild(0).gameObject;
+
     // Disable the visual plane if it is not being tracked
+
     if (trackedImage.trackingState != TrackingState.None)
     {
       planeGo.SetActive(true);
+      lineGo.SetActive(true);
 
       // The image extents is only valid when the image is being tracked
       trackedImage.transform.localScale = new Vector3(trackedImage.size.x, 1f, trackedImage.size.y);
+
+      lineGo.GetComponent<LineRenderer>().SetPositions(new[] { Vector3.zero, trackedImage.transform.position });
 
       // store center point for line renderer
       points.Add(trackedImage.transform.position);
@@ -82,6 +89,7 @@ public class TrackedImageInfoManager : MonoBehaviour
     }
     else
     {
+      lineGo.SetActive(false);
       planeGo.SetActive(false);
     }
   }
@@ -101,7 +109,7 @@ public class TrackedImageInfoManager : MonoBehaviour
     foreach (var trackedImage in eventArgs.updated)
       UpdateInfo(trackedImage);
 
-    if (_line != null )
+    if (_line != null)
       _line.SetPositions(points.ToArray());
   }
 }
