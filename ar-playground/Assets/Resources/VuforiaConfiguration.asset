@@ -24,7 +24,7 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     version: 10.4.4
-    eulaAcceptedVersions: 
+    eulaAcceptedVersions: '{"Values":["10.4"]}'
   database:
     disableModelExtraction: 0
   shaders:
