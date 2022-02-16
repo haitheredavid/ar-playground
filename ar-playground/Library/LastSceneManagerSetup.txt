@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TestSpace/Test-Image 1.unity
+- path: Assets/TestSpace/Test-Vuforia.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
